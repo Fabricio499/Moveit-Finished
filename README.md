@@ -1,3 +1,43 @@
+# Move.it
+> Fabricio / 24.04.22  
+
+- Website para seu ciclo de pomodoro, tecnica bastante utilizada no foco de tarefas dificeis, inclusive desenvolvimento de software, website, mobile e outros.
+- Faça o ciclo padrão de 25 minutos e receba seu desafio aleatório.
+- A cada desafio ganhe Experiencias para alimentar sua dopamina.
+- Desafios / Tarefas aleatórias recomendadas para fazer a manutenção e prevenção da visão e do corpo.
+
+#### Linguagens e tecnologias:
+<div>
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" width="30" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30" height="30"/>
+          
+
+</div>          
+
+
+### Página padrão:
+<a href="https://imgur.com/7rhWNoi"><img src="https://i.imgur.com/7rhWNoi.png" title="source: imgur.com" /></a>
+
+### Página com contador ativo:
+<a href="https://imgur.com/ADdsjY0"><img src="https://i.imgur.com/ADdsjY0.png" title="source: imgur.com" /></a>
+
+### Página com desafio aberto:
+<a href="https://imgur.com/SFFQE2B"><img src="https://i.imgur.com/SFFQE2B.png" title="source: imgur.com" /></a>
+
+### Level UP dinamico:
+<a href="https://imgur.com/5hADRQV"><img src="https://i.imgur.com/5hADRQV.png" title="source: imgur.com" /></a>
+
+
+
+## Como usar: ( tutorial automático do github abaixo )
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
