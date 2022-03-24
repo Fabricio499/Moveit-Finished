@@ -1,0 +1,17 @@
+.container {
+    height: 100vh; /* Vh vai pegar o tamanho do vielport */
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+
+    display: flex;
+    flex-direction: column; /* Para os os elementos dentro do container ficarem 1 acima do outro */
+}
+.container section {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 Colunas com tamanhos iguais (50%) */
+    gap: 6.25rem; /* Espaçamentos entres elas (colunas), aproximadamente 100px no desktop */
+    align-content: center; /* Todos os conteudos do grid sejam alidos no centro */
+}

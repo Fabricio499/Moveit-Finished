@@ -1,0 +1,71 @@
+.countDownContainer {
+    display: flex;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: var(--title);
+}
+.countDownContainer > div {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background: var(--white);
+    box-shadow: 0 0 60px rbga(0, 0, 0, 0.85);
+    border-radius: 5px;
+    font-size: 8.5rem;
+    text-align: center;
+}
+.countDownContainer > div span {
+    flex: 1;
+}
+.countDownContainer > div span:first-child { /* Primeiro span da primeira div ( Numero 2 )*/
+    border-right: 1px solid #f0f1f3;
+}
+.countDownContainer > div span:last-child { /* Ultimo span da primeira div ( Numero 5 )*/
+    border-left: 1px solid #f0f1f3;
+}
+.countDownContainer > span { /* Span onde tem o : inserido */
+    font-size: 6.25rem;
+    margin: 0 0.5rem;
+}
+
+.countDownButton {
+    width: 100%;
+    height: 5rem;
+
+    margin-top: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar o texto inserido no button */
+
+    border: 0;
+    border-radius: 5px;
+    
+    background: var(--blue);
+    color: var(--white);
+
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    transition: background-color 0.2s;
+}
+.countDownButton:not(:disable):hover { /* O Hover só sera acionado quando ele não estiver desabilitado.  */
+    background: var(--blue-dark);
+}
+.countDownButtonActive {
+    background: var(--white);
+    color: var(--title);
+}
+.countDownButtonActive:not(:disable):hover {
+    background: var(--red);
+    color: var(--white);
+}
+.countDownButton:disabled {
+    background: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
+}
